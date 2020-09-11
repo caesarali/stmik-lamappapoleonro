@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
         User::create([
     		'name' => 'Administrator',
     		'email' => 'admin@stmik-lamappapoleonro',
-    		'password' => bcrypt('admin')
+    		'password' => '$2y$10$iwLO2XesgEazE0mzLaLypuklg5AjqQSZ1x/Bo.jQ3XuX0O4okh9P6'
     	]);
 
         $tahun = Tahun::Create(['tahun' => '2014']);
